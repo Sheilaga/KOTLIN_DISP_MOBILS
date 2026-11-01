@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--DISEÑO DE PANTALLA DE ESCRIBIR
+DONDE SE EDITA, ESCRIBE Y RECOGE DATOS
+DONDE EL USUARIO ESCRIBE
+CONTIENE EDITTEXT y Button GUARDAR-->
+
+<!--ScrollView hace que se pueda hacer scroll en la pantalla-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#4A148C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mi perfil"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_campo"
+        android:hint="Escriu el teu nom"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F3E5F5"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_campo"
+        android:hint="Biografia"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F3E5F5"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_campo"
+        android:hint="Correu electronic:"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F3E5F5"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etImagen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_campo"
+        android:hint="URL"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F3E5F5"
+        android:inputType="textUri"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_boton"
+        android:backgroundTint="@null"
+        android:text="Guardar"
+        android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</ScrollView>
