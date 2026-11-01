@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "v1_Tasca3"
+rootProject.name = "Tasca3_PERFIL_USUARIO"
 include(":app")
  
