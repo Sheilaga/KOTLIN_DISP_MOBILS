@@ -5,14 +5,14 @@ DONDE SE EDITA, ESCRIBE Y RECOGE DATOS
 DONDE EL USUARIO ESCRIBE
 CONTIENE EDITTEXT y Button GUARDAR-->
 
-<!--ScrollView hace que se pueda hacer scroll en la pantalla-->
+<!--ScrollView hace que se pueda hacer scroll en la pantalla
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="#4A148C">
+    android:background="#4A148C">-->
 
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -95,6 +95,6 @@ CONTIENE EDITTEXT y Button GUARDAR-->
         android:backgroundTint="@null"
         android:text="Guardar"
         android:textColor="#FFFFFF" />
-    </LinearLayout>
+</LinearLayout>
 
-</ScrollView>
+<!--</ScrollView>-->
