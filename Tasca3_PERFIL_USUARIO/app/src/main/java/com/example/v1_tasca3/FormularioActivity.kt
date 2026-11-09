@@ -30,7 +30,8 @@ class FormularioActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.tvBio).text = bio
 
         //Busca la ImageView y le dice a Coil que descargue la imagen de esa Url y la muestre
-        findViewById<ImageView>(R.id.ivPerfil).load(imagen)
+        // findViewById<ImageView>(R.id.ivPerfil).load(imagen)- si queremos poner la url a mano
+        findViewById<ImageView>(R.id.ivPerfil).load("https://picsum.photos/300")
 
         //Boton para volver a pantalla principal ( Main)
         val btnVolver = findViewById<Button>(R.id.btn_volver)
