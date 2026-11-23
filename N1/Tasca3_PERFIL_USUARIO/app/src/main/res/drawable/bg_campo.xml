@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#BA68C8" />
+    <stroke android:width="1dp" android:color="#F3E5F5" />
+    <corners android:radius="16dp" />
+    <padding android:left="12dp" android:top="12dp"
+        android:right="12dp" android:bottom="12dp" />
+</shape>
+
+    <!-- ATRIBUTOS CAMPOS
+    solid-color= relleno de la caja
+    corners-radius= redondea esquinas
+    stroke= Color y grosor del borde
+    padding= separacion entre los bordes de la forma
+    left/top/right/bottom= margenes interiores-->
